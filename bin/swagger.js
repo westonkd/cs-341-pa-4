@@ -9,7 +9,7 @@ const doc = {
     description: "An open API for managing contacts",
   },
   host: appConfig.host,
-  schemes: ["http"],
+  schemes: ["https"],
 };
 
 const outputFile = "./swagger/contacts.json";
