@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --inspect index.js",
-    "swagger-autogen": "node ./bin/swagger.js"
+    "swagger-autogen": "node ./bin/swagger.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
