@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --inspect index.js",
     "swagger-autogen": "node ./bin/swagger.js",
+    "pre-release": "NODE_ENV=production npm run swagger-autogen",
     "start": "node index.js"
   },
   "author": "",
