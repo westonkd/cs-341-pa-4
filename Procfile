@@ -1,2 +1,2 @@
-release: npm run pre-deploy
+release: npm run swagger-autogen
 web: npm start

@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "nodemon --inspect index.js",
     "swagger-autogen": "node ./bin/swagger.js",
-    "pre-deploy": "HEROKU_APP_NAME=cse-341-westonkd npm run swagger-autogen",
     "start": "node index.js"
   },
   "author": "",
