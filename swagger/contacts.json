@@ -8,7 +8,7 @@
   "host": "cse-341-westonkd.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/contacts/{id}": {
